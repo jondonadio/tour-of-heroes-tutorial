@@ -4,20 +4,14 @@ import { Hero } from '../hero';
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css']
+  styleUrls: ['./heroes.component.css'],
 })
 export class HeroesComponent implements OnInit {
-
-  constructor() {
-   
-
-   }
-   hero: Hero = {
+  constructor() {}
+  hero: Hero = {
     id: 1,
-    name: 'Windstorm'
-   }
+    name: 'Windstorm',
+  };
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
